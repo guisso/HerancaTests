@@ -41,4 +41,14 @@ public class EmpregadoComissionado extends Empregado {
         return salario + vendas * taxa;
     }
 
+    @Override
+    public String toString() {
+        return super.toString()
+                + " EmpregadoComissionado{"
+                + "salario=" + salario
+                + ", vendas=" + vendas
+                + ", taxa=" + taxa
+                + '}';
+    }
+
 }

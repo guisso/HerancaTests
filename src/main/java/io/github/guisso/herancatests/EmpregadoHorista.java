@@ -32,4 +32,13 @@ public class EmpregadoHorista extends Empregado {
         return horas * valorHora;
     }
 
+    @Override
+    public String toString() {
+        return super.toString()
+                + " EmpregadoHorista{"
+                + "horas=" + horas
+                + ", valorHora=" + valorHora
+                + '}';
+    }
+    
 }

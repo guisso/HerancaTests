@@ -6,7 +6,7 @@ package io.github.guisso.herancatests;
  * @author Luis Guisso <luis dot guisso at ifnmg dot edu dot br>
  * @version 0.1, 21/03/2022
  */
-public class PessoaJuridica {
+public class PessoaJuridica extends Pessoa {
 
     private Long cnpj;
 

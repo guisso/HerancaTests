@@ -12,6 +12,15 @@ public class Pessoa {
     private String email;
     protected Long telefone;
 
+    public Pessoa() {
+    }
+
+    public Pessoa(String nome, String email, Long telefone) {
+        this.nome = nome;
+        this.email = email;
+        this.telefone = telefone;
+    }
+
     public String getNome() {
         return nome;
     }
@@ -38,7 +47,11 @@ public class Pessoa {
 
     @Override
     public String toString() {
-        return "Pessoa{" + "nome=" + nome + ", email=" + email + '}';
+        return "Pessoa{" 
+                + "nome=" + nome 
+                + ", email=" + email 
+                + ", telfone=" + telefone
+                + '}';
     }
 
 }

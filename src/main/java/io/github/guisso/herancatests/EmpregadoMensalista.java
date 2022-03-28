@@ -23,4 +23,12 @@ public class EmpregadoMensalista extends Empregado {
         return salario;
     }
 
+    @Override
+    public String toString() {
+        return super.toString()
+                + " EmpregadoMensalista{"
+                + "salario=" + salario
+                + '}';
+    }
+    
 }
